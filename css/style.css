@@ -10,6 +10,11 @@
     font-family: 'VarelaRound';
 }
 
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
 /* Navbar */
 
 .navbar {
@@ -53,7 +58,7 @@
 section.banner{
     position: relative;
     overflow: hidden;
-    height: 40vh;
+    height: calc(100vh - 70px);
     background: linear-gradient(to right, #333 0%, #000000c2);
     display: flex;
     align-items: center;
