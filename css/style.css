@@ -37,7 +37,7 @@ body{
     text-decoration: none;
     position: relative;
     margin-left: 15px;
-    color: rgb(83, 30, 151);
+    color: #fff;
 }
 
 .navlink::before{
