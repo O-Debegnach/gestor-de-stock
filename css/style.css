@@ -14,7 +14,7 @@
 /* Navbar */
 
 .navbar {
-    background-color: #9AC928;
+    background-color: #00324A;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,6 +138,7 @@ input .loginInput[type=text] {
     border: 1px black;
     background-color: #2DC828;
     color: white;
+    font-size: 5px;
 }
 
 * {
@@ -148,11 +149,11 @@ input .loginInput[type=text] {
 }
 
 body {
-    background-color: #1cc48c;
+    background-color: #F1F2ED;
 }
 
 .container {
-    background-color: #fbfbfb;
+    background-color: #DCD2C5;
     width: 300px;
     height: 400px;
     margin: 50px auto;
@@ -192,8 +193,9 @@ body {
 .login-form .actions {
     display: flex;
     justify-self: end;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .mail-container {
@@ -218,4 +220,20 @@ label {
     font-size: 20px;
     max-width: 88.5%;
     outline: none;
+}
+
+.formlink:link {
+    color: #00324A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formlink:visited {
+    color: green;
+    text-decoration: none;
+}
+
+.formlink:hover {
+    color: hotpink;
+    text-decoration: underline;
 }
