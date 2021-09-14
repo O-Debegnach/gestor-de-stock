@@ -3,6 +3,10 @@
     src: url('../fonts/VarelaRound-Regular.ttf');
 }
 
+:root{
+    --pripary-color: #00324A
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +15,16 @@
 }
 
 
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
 /* Navbar */
 
 .navbar {
-    background-color: #00324A;
+    background-color: var(--pripary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +65,7 @@
 section.banner {
     position: relative;
     overflow: hidden;
-    height: 40vh;
+    height: calc(100vh - 70px);
     background: linear-gradient(to right, #333 0%, #000000c2);
     display: flex;
     align-items: center;
@@ -69,7 +79,6 @@ section.banner {
     background: linear-gradient(to right, #333 0%, #000000c2);
     display: flex;
     align-items: center;
-    color: var(--font-color);
 }
 
 .bgvideo {
@@ -109,7 +118,7 @@ section.banner {
 
 .title-container p {
     font-size: 15px;
-    color: #9AC928
+    color: #DCD2C5
 }
 
 section.contenido {
